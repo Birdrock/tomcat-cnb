@@ -15,9 +15,9 @@
 api = "0.2"
 
 [buildpack]
-id      = "org.cloudfoundry.tomcat"
+id      = "org.cloudfoundry.identity.tomcat"
 name    = "Cloud Foundry Apache Tomcat Buildpack"
-version = "{{.Version}}"
+version = "0.1.0"
 
 [[stacks]]
 id = "io.buildpacks.stacks.bionic"

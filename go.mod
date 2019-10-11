@@ -9,3 +9,5 @@ require (
 	github.com/onsi/gomega v1.7.0
 	github.com/sclevine/spec v1.3.0
 )
+
+replace github.com/cloudfoundry/tomcat-cnb => ./
